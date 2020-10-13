@@ -133,3 +133,45 @@ a{
     
 
 }
+.container{
+    margin: auto;
+    background-color: white;
+    height: 560px;
+    width: 95%;
+    color: rgba(61, 61, 61, 0.781);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.258);
+}
+.form{
+    width: 300px;
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.divForm{
+    
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+.form::placeholder{
+    font-size: 1rem;
+}
+.imgForm{
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.container h1{
+    text-align: justify;
+    margin: 20px;
+    position: relative;
+    top: 30px;
+    color: rgba(14, 80, 14, 0.87);
+}
+.container h2{
+    text-align: end;
+}
