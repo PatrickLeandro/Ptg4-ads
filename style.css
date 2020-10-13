@@ -174,3 +174,7 @@ a{
 .container h2{
     text-align: end;
 }
+
+select{
+    padding: 5px;
+}
