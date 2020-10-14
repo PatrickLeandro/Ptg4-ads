@@ -96,8 +96,12 @@ a{
     color: white;
     font-weight: bolder;
     border-radius: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+.enviar{
+    background-color: rgb(29, 184, 8);
+}
+.sair{
+    background-color: red;
 }
 .linhaCentral{
     border-left: 1px solid;
@@ -133,28 +137,46 @@ a{
     
 
 }
+
 .container{
     margin: auto;
     background-color: white;
-    width: 95%;
+    width: 400px;
     color: rgba(61, 61, 61, 0.781);
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.258);
+    position: relative;
+    text-align: justify;
+    padding: 10px;
 }
-.form{
-    width: 300px;
-    padding: 2px;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
+.botoes{
+    text-align: center;
 }
 .divForm{
     
     position: relative;
     bottom: 100px;
+    padding-left: 40px;
 }
-
-
+.um{
+    position: relative;
+    top: -80px;
+}
+.id{
+    margin-left: 170px ;
+}
+.lts{
+    margin-left: 126px ;
+}
+.nome{
+    margin-left: 95px ;
+}
+.data{
+    margin-left: 75px ;
+}
+.hora{
+    margin-left: 160px ;
+}
 
 .form::placeholder{
     font-size: 1rem;

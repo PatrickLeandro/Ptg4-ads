@@ -12,12 +12,12 @@
 
     <div class="container">
         <h1>ADS AgroSystem</h1>
-        <h2><img src="vaca.png" class="imgForm"></h2><br><br>
+        <h2><img src="vaca.png" class="imgForm um"></h2><br>
     <div class="divForm">
         <div class="divForm1">
             <form action="">
                 ID animal: &nbsp;
-                <select name="VA">
+                <select name="VA" class="id">
                     <option value="VA081">VA081</option> 
                     <option value="VA082" selected>VA082</option>
                     <option value="VA083">VA083</option>
@@ -28,10 +28,10 @@
                     <option value="VA088">VA088</option>
                     <option value="VA089">VA089</option>
                     <option value="VA090">VA090</option>
-                  </select><br><br>
-
+                  </select>&nbsp;&nbsp;
+                    <br><br>
                 Quantidade em Lts: &nbsp;
-                <select name="litros">
+                <select name="litros" class="lts">
                     <option value="1">01</option> 
                     <option value="2">02</option>
                     <option value="3">03</option>
@@ -44,7 +44,7 @@
                     <option value="10">10</option>
                   </select><br><br>
                 Nome funcionário: &nbsp;
-                <select name="nome">
+                <select name="nome" class="nome">
                     <option value="Patrick">Patrick</option> 
                     <option value="Haroldo" selected>Haroldo</option>
                     <option value="Fabiana">Fabiana</option>
@@ -53,7 +53,7 @@
                     <option value="Lucas">Lucas</option>
                   </select><br><br>
                   Data: &nbsp;
-                <select name="Dia">
+                <select name="Dia" class="data">
                     <option value="1">01</option> 
                     <option value="2">02</option>
                     <option value="3">03</option>
@@ -88,7 +88,7 @@
                     </select> 
 
                     &nbsp;
-                <select name="mes">
+                <select name="mes" >
                     <option value="1"selected>JAN</option> 
                     <option value="2">FEV</option>
                     <option value="3">MAR</option>
@@ -104,12 +104,12 @@
                     
                     </select>
                     &nbsp;
-                <select name="ano">
+                <select name="ano" >
                     <option value="20" selected>2020</option>
                     
                     </select><br><br>
                 Hora: &nbsp;
-                <select name="hora">
+                <select name="hora" class="hora">
                      
                     <option value="0">00</option>
                     <option value="1">01</option> 
@@ -137,8 +137,8 @@
                     <option value="23">23</option>
                     
                     </select> &nbsp;&nbsp;
-                    min:
-                    <select name="minutos">
+                    
+                    <select name="minutos" >
                         
                         <option value="1"selected>00</option> 
                         <option value="1">01</option> 
@@ -202,16 +202,15 @@
                         <option value="59">59</option>
                         </select> 
                 
-                <br><br><br><br>
-            <a href="controleDeLeite.html" class="btn1">Enviar</a>
+                
+            
+            </div>
         </div>
-    </div>
-
+        <div class="botoes">
         
-        
-        <a href="inicio.html" class="btn1">Voltar</a>
-        <a href="index.html" class="btn1">Sair</a><br><br><br>
-
+            <a href="controleDeLeite.html" class="btn1 enviar">Enviar</a>
+            <a href="inicio.html" class="btn1">Menu</a><br><br><br>
+        </div>
     </div>
 </body>
 </html>
