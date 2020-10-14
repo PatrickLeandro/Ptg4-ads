@@ -12,24 +12,79 @@
 
     <div class="container">
         <h1>ADS AgroSystem</h1>
-        <h2><img src="animais.png   " class="imgForm"></h2><br><br>
+        <h2><img src="animais.png   " class="imgForm dois"></h2><br><br>
     <div class="divForm">
         <div class="divForm1">
             <form action="">
-                ID animal: <br> <input type="text" placeholder="Digite o ID do animal" class="form">&nbsp;&nbsp;<br><br><br>
-                Tratamento: <br><input id="qtd" type="text" placeholder="Digite o tratamento utilizado" class="form"> <br><br><br>
-                Nome do funcionário: <br><input type="text" class="form" placeholder="Digite o ID do funcionário"><br><br><br><br>   
-                Horário: <br> <input type="text" placeholder="Digite o horário" class="form">
-            </form><br><br>
-            <a href="monitoramentoDeAnimais.html" class="btn1">Enviar</a>
+                ID animal: &nbsp;
+                <select name="VA" class="id">
+                    <option value="VA081">AV081</option> 
+                    <option value="VA082" selected>BO082</option>
+                    <option value="VA083">VA083</option>
+                    <option value="VA084">BO084</option> 
+                    <option value="VA085">GA085</option>
+                    <option value="VA086">PO086</option>
+                    <option value="VA087">VA087</option> 
+                    <option value="VA088">BO088</option>
+                    <option value="VA089">GA089</option>
+                    <option value="VA090">PO090</option>
+                  </select>
+                    <br><br>
+                Tratamento: &nbsp;&nbsp;&nbsp;<input id="qtd"  type="text" placeholder="Digite o tratamento utilizado" class="form tratamento"> <br><br>
+
+
+                Dias para cumprir o  tratamento: &nbsp;
+                <select name="Dia" class="diasTratamento">
+                    <option value="1">01</option> 
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option> 
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option> 
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10" selected>10</option>
+                    <option value="11">11</option> 
+                    <option value="12">12</option>
+                    <option value="13">13</option> 
+                    <option value="14">14</option>
+                    <option value="15">15</option> 
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option> 
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option> 
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option> 
+                    <option value="28">28</option>
+                    <option value="29">29</option> 
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    </select> 
+
+
+
+
+            </form>
+
+
+
         </div>
     </div>
 
         
-        
-        <a href="inicio.html" class="btn1">Voltar</a>
-        <a href="index.html" class="btn1">Sair</a><br><br><br>
+        <div class="botoes">
+            <a href="inicio.html" class="btn1">Voltar</a>
+            <a href="monitoramentoDeAnimais.html" class="btn1 enviar">Enviar</a>
+            <br><br>
 
+        </div>
     </div>
 </body>
 </html>

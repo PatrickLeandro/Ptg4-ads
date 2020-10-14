@@ -158,9 +158,14 @@ a{
     bottom: 100px;
     padding-left: 40px;
 }
-.um{
-    position: relative;
+.um{        
+    position: relative;     /* imagem da vaca na page cadastro de leite */
     top: -80px;
+}
+.dois{
+    position: relative;
+    left: 15px;             /* imagem dos animais na page cadastro de animais doentes */
+    top: -60px;
 }
 .id{
     margin-left: 170px ;
@@ -176,6 +181,14 @@ a{
 }
 .hora{
     margin-left: 160px ;
+}
+.diasTratamento{
+    margin-left: 45px;
+}
+.tratamento{
+    border: none;
+    border-bottom: 1px solid;
+    width: 220px;
 }
 
 .form::placeholder{
