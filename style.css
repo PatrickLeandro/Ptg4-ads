@@ -139,77 +139,69 @@ a{
 }
 
 .container{
-    margin: auto;
     background-color: white;
-    width: 400px;
-    color: rgba(61, 61, 61, 0.781);
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.258);
+    width: 100%;
+    max-width: 430px;
+    color: rgba(61, 61, 61, 0.781); 
+    border-radius: 3px;
+    padding: 25px 40px;     /* configuração do container, onde estão os selects */
+    margin: auto;
+    text-align: start;
     position: relative;
-    text-align: justify;
-    padding: 10px;
+    padding-top: 0px;
+}
+.container h1{
+    float: left;
 }
 .botoes{
-    text-align: center;
-}
-.divForm{
-    
-    position: relative;
-    bottom: 100px;
-    padding-left: 40px;
+    text-align: center;     /* configuração dos botões */
+    padding: 10px;
 }
 .um{        
-    position: relative;     /* imagem da vaca na page cadastro de leite */
-    top: -80px;
+    width: 100px; /* imagem da vaca na page cadastro de leite */
 }
 .dois{
     position: relative;
     left: 15px;             /* imagem dos animais na page cadastro de animais doentes */
-    top: -60px;
-}
-.id{
-    margin-left: 170px ;
-}
-.lts{
-    margin-left: 126px ;
-}
-.nome{
-    margin-left: 95px ;
-}
-.data{
-    margin-left: 75px ;
-}
-.hora{
-    margin-left: 160px ;
-}
-.diasTratamento{
-    margin-left: 45px;
-}
-.tratamento{
-    border: none;
-    border-bottom: 1px solid;
-    width: 220px;
-}
-
-.form::placeholder{
-    font-size: 1rem;
-}
-.imgForm{
     width: 150px;
-    position: relative;
-    bottom: 50px;
 }
-.container h1{
-    text-align: justify;
-    margin: 20px;
-    position: relative;
-    top: 30px;
-    color: rgba(14, 80, 14, 0.87);
-}
-.container h2{
-    text-align: end;
+.container p{
+    text-align: end;        /* Alinhamento da imagem que esta dentro de um p(paragrafo)*/
 }
 
-select{
-    padding: 5px;
+.right{
+    float: right;
 }
+.left{
+    float: left;
+}
+.form-row{
+    display: flex;
+    margin-top: -40px;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.form-row-70{
+    width: 70%;
+}
+.form-row-50{
+    width: 50%;
+    margin-top: 5px;
+}
+.form-row-30{
+    width: 30%;
+    margin-top: 5px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.title{
+    margin-bottom: -20px;
+}
+
+

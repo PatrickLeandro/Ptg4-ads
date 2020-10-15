@@ -3,88 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADS AgroSystem - Controle de animais</title>
+    <title>ADS AgroSystem - Controle de leite</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Controle de animais doentes</h1>
+    <h1 class="title">Monitoramento de animais doentes</h1>
 
 
     <div class="container">
-        <h1>ADS AgroSystem</h1>
-        <h2><img src="animais.png   " class="imgForm dois"></h2><br><br>
-    <div class="divForm">
-        <div class="divForm1">
-            <form action="">
-                ID animal: &nbsp;
-                <select name="VA" class="id">
-                    <option value="VA081">AV081</option> 
-                    <option value="VA082" selected>BO082</option>
-                    <option value="VA083">VA083</option>
-                    <option value="VA084">BO084</option> 
-                    <option value="VA085">GA085</option>
-                    <option value="VA086">PO086</option>
-                    <option value="VA087">VA087</option> 
-                    <option value="VA088">BO088</option>
-                    <option value="VA089">GA089</option>
-                    <option value="VA090">PO090</option>
-                  </select>
-                    <br><br>
-                Tratamento: &nbsp;&nbsp;&nbsp;<input id="qtd"  type="text" placeholder="Digite o tratamento utilizado" class="form tratamento"> <br><br>
+        <div class="cabecalho">
+            <h1>ADS AgroSystem</h1>
+            <p><img src="animais.png" class="dois"></p><br>
+        </div>   
 
-
-                Dias para cumprir o  tratamento: &nbsp;
-                <select name="Dia" class="diasTratamento">
-                    <option value="1">01</option> 
-                    <option value="2">02</option>
-                    <option value="3">03</option>
-                    <option value="4">04</option> 
-                    <option value="5">05</option>
-                    <option value="6">06</option>
-                    <option value="7">07</option> 
-                    <option value="8">08</option>
-                    <option value="9">09</option>
-                    <option value="10" selected>10</option>
-                    <option value="11">11</option> 
-                    <option value="12">12</option>
-                    <option value="13">13</option> 
-                    <option value="14">14</option>
-                    <option value="15">15</option> 
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option> 
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option> 
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option> 
-                    <option value="28">28</option>
-                    <option value="29">29</option> 
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                    </select> 
-
-
-
-
-            </form>
-
-
-
-        </div>
-    </div>
-
-        
+        <form action="" class="form">
+            
+            <div class="form-row">
+                <div class="form-row-50">
+                    <span>ID Animal:</span>
+                </div>
+                <div class="form-row-50">
+                    <div class="right">
+                        <span>
+                            <select name="VA" class="id">
+                                <option value="VA081">VA081</option> 
+                                <option value="VA082" selected>VA082</option>
+                                <option value="VA083">VA083</option>
+                                <option value="VA084">VA084</option> 
+                                <option value="VA085">VA085</option>
+                                <option value="VA086">VA086</option>
+                                <option value="VA087">VA087</option> 
+                                <option value="VA088">VA088</option>
+                                <option value="VA089">VA089</option>
+                                <option value="VA090">VA090</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-row-50">
+                    <span>Tratamento utilizado:</span>
+                </div>
+                <div class="form-row-50">
+                    <div class="right">
+                        <span><input type="text"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-row-70">
+                    <span>Dias para cumprir o Tratamento:</span>
+                </div>
+                <div class="form-row-30">
+                    <div class="right">
+                        <span>
+                            <select>
+                                <option value="1">01</option> 
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option> 
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option> 
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10" selected>10</option>
+                                <option value="11">11</option> 
+                                <option value="12">12</option>
+                                <option value="13">13</option> 
+                                <option value="14">14</option>
+                                <option value="15">15</option> 
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option> 
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option> 
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option> 
+                                <option value="28">28</option>
+                                <option value="29">29</option> 
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                </select>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </form>
         <div class="botoes">
-            <a href="inicio.html" class="btn1">Voltar</a>
-            <a href="monitoramentoDeAnimais.html" class="btn1 enviar">Enviar</a>
-            <br><br>
-
+            <a href="controleDeLeite.html" class="btn1 enviar">Enviar</a>
+            <a href="inicio.html" class="btn1">Menu</a>
         </div>
     </div>
-</body>
-</html>
