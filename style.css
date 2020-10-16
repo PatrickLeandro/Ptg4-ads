@@ -120,11 +120,13 @@ a{
     }
     .card{
         width: 90%;
-        margin: 10px;
+        margin: auto;
+        margin-top: 10px;
         padding: 5px;
         padding-bottom: 25px;
         position: relative;
         top: 10px;
+
     }
     .container{
         position: relative;
@@ -139,21 +141,11 @@ a{
         position: relative;
         right: 30px;
         width: 120%;
-        font-size: 12px;
+        font-size: 15px;
         padding: 0;
         margin: 0;
     }
-    .form-row .form-row-70{
-        width: 90%;
-    }
-    .form-row .form-row-50{
-        width: 60%;
-    }
-    .form-row .form-row-30{
-        width: 30%;
-        margin-top: 5px;
-    }
-
+    
 }
 
 .container{
