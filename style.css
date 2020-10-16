@@ -66,28 +66,19 @@ a{
 .link{
     text-align: end;
 }
-.esq, .dir{
-    padding-top: 30px;
-    margin-top: 1%;
-    color: rgba(61, 61, 61, 0.781);
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.258);
-    
-}
-.esq{
-    height: 450px;
-    width: 40%;
-    margin-left: 3%;
-    background-color: white;
-}
-.dir{
-    float: right;
-    margin-top: -478px;
-    margin-right: 3%;
-    height: 450px;
-    width: 40%;
-    background-color: white;
 
+.cards{
+    display: flex;
+}
+.card{
+    width: 30%;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.title h2{
+    padding-bottom: 10px;
 }
 .btn1{
     border: none;
@@ -95,7 +86,7 @@ a{
     background-color: #2c75fd;
     color: white;
     font-weight: bolder;
-    border-radius: 5px;
+    border-radius: 5px;    
 }
 .enviar{
     background-color: rgb(29, 184, 8);
@@ -103,37 +94,20 @@ a{
 .sair{
     background-color: red;
 }
-.linhaCentral{
-    border-left: 1px solid;
-    position: fixed;
-    left: 50%;
-    height: 100%;
-}
+
 .img1{
     width: 30%;
 }
 .img2{
     width: 50%;
 }
+.pageMonitoramento h1{
+    margin-top: 50px;
+}
 
 @media screen and (max-width: 500px) {
            
-    .esq, .dir{
-        margin: auto;
-        margin-top: 10px;
-        padding: 0px;
-        padding-top: 0.1px;
-        color: rgba(61, 61, 61, 0.781);
-        border-radius: 15px;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.258);
-        width: 95%;
-        height: 380px;
-        background-color: white;
-        float: none;   
-    }
-    .linhaCentral{
-        border: none;
-    }
+    
     
 
 }
