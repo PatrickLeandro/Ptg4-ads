@@ -106,15 +106,58 @@ a{
 }
 
 @media screen and (max-width: 500px) {
-           
-    
-    
+          
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .cards{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .cards .right, .cards .left{
+        float: none;
+    }
+    .card{
+        width: 90%;
+        margin: 10px;
+        padding: 5px;
+        padding-bottom: 25px;
+        position: relative;
+        top: 10px;
+    }
+    .container{
+        position: relative;
+        top: 30px;
+        width: 75%;
+        padding: 0px;
+    }
+    .cabecalho h1{
+        font-size: 20px;
+    }
+    .form-row{
+        position: relative;
+        right: 30px;
+        width: 120%;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .form-row .form-row-70{
+        width: 90%;
+    }
+    .form-row .form-row-50{
+        width: 60%;
+    }
+    .form-row .form-row-30{
+        width: 30%;
+        margin-top: 5px;
+    }
 
 }
 
 .container{
     background-color: white;
-    width: 100%;
     max-width: 430px;
     color: rgba(61, 61, 61, 0.781); 
     border-radius: 3px;
